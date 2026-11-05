@@ -5,6 +5,7 @@ edition = "2024"
 rust-version = "1.85"
 description = "Async Apache CloudStack API client driven by runtime API discovery (listApis)"
 license = "Apache-2.0"
+repository = "https://github.com/DaanHoogland/cloudstack-rs"
 readme = "README.md"
 keywords = ["cloudstack", "cloud", "iaas", "api", "client"]
 categories = ["api-bindings", "web-programming::http-client"]
