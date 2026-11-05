@@ -18,12 +18,12 @@ offered.
 
 ## Using it
 
-The package is `cloudstack-rs`; in code it is `cloudstack_rs`. Until it is published, depend
-on it by path (or by git URL once it has a repository):
+The package is `cloudstack-rs`; in code it is `cloudstack_rs`. It is not on crates.io yet, so
+depend on it from GitHub ([DaanHoogland/cloudstack-rs](https://github.com/DaanHoogland/cloudstack-rs)):
 
 ```toml
 [dependencies]
-cloudstack-rs = { path = "../cloudstack-rs" }
+cloudstack-rs = { git = "https://github.com/DaanHoogland/cloudstack-rs" }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 ```
 
@@ -135,4 +135,4 @@ API layer only. Not done yet:
 
 ## License
 
-Apache-2.0
+Licensed under the [Apache License, Version 2.0](LICENSE).
